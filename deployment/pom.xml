@@ -9,6 +9,13 @@
   </parent>
   <artifactId>address-dto-deployment</artifactId>
   <name>Address Dto - Deployment</name>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/matos-nelson/address-dto</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
