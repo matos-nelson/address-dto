@@ -4,13 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.property.management</groupId>
   <artifactId>address-dto-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>Address Dto - Parent</name>
   <modules>
     <module>deployment</module>
     <module>runtime</module>
   </modules>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/matos-nelson/address-dto</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <compiler-plugin.version>3.11.0</compiler-plugin.version>
     <failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
