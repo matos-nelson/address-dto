@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.property.management</groupId>
     <artifactId>address-dto-parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
   </parent>
   <artifactId>address-dto-deployment</artifactId>
   <name>Address Dto - Deployment</name>
@@ -20,9 +20,10 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-hibernate-validator-deployment</artifactId>
-    </dependency>
+      <groupId>org.property.management</groupId>
+      <artifactId>common-dto-pom-deployment</artifactId>
+      <version>1.0.0</version>
+     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5-internal</artifactId>
