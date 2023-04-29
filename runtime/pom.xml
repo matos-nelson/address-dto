@@ -5,26 +5,19 @@
   <parent>
     <groupId>org.property.management</groupId>
     <artifactId>address-dto-parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
   </parent>
   <artifactId>address-dto</artifactId>
   <name>Address Dto - Runtime</name>
-  <properties>
-    <lombok.version>1.18.26</lombok.version>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>${lombok.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-hibernate-validator</artifactId>
+      <groupId>org.property.management</groupId>
+      <artifactId>common-dto-pom</artifactId>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
   <build>
@@ -49,11 +42,6 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <annotationProcessorPaths>
-            <path>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-              <version>${lombok.version}</version>
-            </path>
             <path>
               <groupId>io.quarkus</groupId>
               <artifactId>quarkus-extension-processor</artifactId>
