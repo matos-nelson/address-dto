@@ -1,10 +1,8 @@
 package org.property.management.address.dto.runtime;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class AddressDto {
 
     private String address1;
