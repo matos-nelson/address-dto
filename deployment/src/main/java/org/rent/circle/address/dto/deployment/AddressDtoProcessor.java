@@ -1,4 +1,4 @@
-package org.property.management.address.dto.deployment;
+package org.rent.circle.address.dto.deployment;
 
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;

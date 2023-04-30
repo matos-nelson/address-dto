@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.property.management</groupId>
+    <groupId>org.rent.circle</groupId>
     <artifactId>address-dto-parent</artifactId>
     <version>1.0.2</version>
   </parent>
@@ -15,12 +15,12 @@
       <artifactId>quarkus-arc-deployment</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.property.management</groupId>
+      <groupId>org.rent.circle</groupId>
       <artifactId>address-dto</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.property.management</groupId>
+      <groupId>org.rent.circle</groupId>
       <artifactId>common-dto-pom-deployment</artifactId>
       <version>1.0.0</version>
      </dependency>
