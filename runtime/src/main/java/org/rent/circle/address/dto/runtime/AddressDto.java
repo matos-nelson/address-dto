@@ -1,4 +1,4 @@
-package org.property.management.address.dto.runtime;
+package org.rent.circle.address.dto.runtime;
 
 import lombok.Data;
 
