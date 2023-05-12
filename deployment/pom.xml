@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.rent.circle</groupId>
     <artifactId>address-dto-parent</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
   </parent>
   <artifactId>address-dto-deployment</artifactId>
   <name>Address Dto - Deployment</name>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>org.rent.circle</groupId>
       <artifactId>common-dto-pom-deployment</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
      </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
