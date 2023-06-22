@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class SaveAddressDto {
 
-    @NotBlank(message = "Address may not be blank")
-    private String address1;
+    @NotBlank(message = "Street address may not be blank")
+    private String street1;
 
-    private String address2;
+    private String street2;
 
     @NotBlank(message = "Zipcode may not be blank")
     private String zipcode;

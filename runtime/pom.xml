@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.rent.circle</groupId>
     <artifactId>address-dto-parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
   </parent>
   <artifactId>address-dto</artifactId>
   <name>Address Dto - Runtime</name>
