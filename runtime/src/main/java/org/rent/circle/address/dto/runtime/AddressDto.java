@@ -5,9 +5,9 @@ import lombok.Data;
 @Data
 public class AddressDto {
 
-    private String address1;
+    private String street1;
 
-    private String address2;
+    private String street2;
 
     private String zipcode;
 
